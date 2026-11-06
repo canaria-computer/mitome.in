@@ -52,6 +52,13 @@ export default defineConfig({
     sidebar: [
       { text: "はじめに", link: "/" },
       {
+        text: "暗号技術の基礎知識",link:"/learn-cryptography",
+        collapsed: true,
+        items:[
+          
+        ]
+      },
+      {
         text: "OpenPGPを試す",
         collapsed: true,
         items: [
